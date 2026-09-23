@@ -6,9 +6,6 @@ Detecting rose leaf diseases (Black Spot, Downy Mildew) from leaf images using t
 
 [FlowerNet](https://data.mendeley.com/datasets/7z67nyc57w/2) — 917 images across 3 classes (Fresh Leaf, Black Spot, Downy Mildew), photographed at the Village of Roses (Golap Gram), Birulia, Dhaka, Bangladesh.
 
-Class distribution was skewed (Downy Mildew had the fewest samples), so I augmented each class up to 4x the size of the largest class, and resized every image to 224x224x3 for both models.
-
-
 ## Approach
 
 - Augmented each class up to 4x the size of the largest class
@@ -23,13 +20,6 @@ Class distribution was skewed (Downy Mildew had the fewest samples), so I augmen
 | ResNet50 | 89.69%   | 452.65s        |
 | VGG16    | 90.53%   | 526.55s        |
 
-
-</details>
-
-### Sample predictions
-
-![ResNet50 predictions] (1.png)
-![VGG16 predictions](1.png)
 
 ## Citation
 
